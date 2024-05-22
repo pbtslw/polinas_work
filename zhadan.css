@@ -1,0 +1,49 @@
+.info__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.info__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.info__vector {
+    background-color: #000;
+    height: .5px;
+    width: 250px;
+    margin: auto;
+}
+
+.info__item {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.info__item:hover {
+    transition: all 0.5s ease 0 ;
+    background-color:#e2ded9;
+    border-radius: 20px;
+}
+
+.info__link {
+    text-decoration: none;
+    color: black;
+}
+
+.info__link:hover {
+    text-decoration: none;
+    color: aliceblue    ;
+}

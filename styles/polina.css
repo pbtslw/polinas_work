@@ -1,0 +1,35 @@
+.polina__list {
+    display: flex;
+    justify-content: center;
+}
+
+.polina__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.polina__photo-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.polina__img {
+    height: 500px;
+    box-shadow: 20px 20px 50px  #D2B48C ;
+}
+
+.polina__link {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.polina__link:hover {
+    color: #D2B48C  ;
+    transition: all 0.3s ease 0s;
+}

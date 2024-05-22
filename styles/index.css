@@ -1,0 +1,296 @@
+/* HEADER */
+.header__section {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.header__list {
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin: 0 ;
+}
+
+.header__link {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.header__link:hover {
+    color: #D2B48C  ;
+    transition: all 0.3s ease 0s;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.header__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    text-shadow: #D2B48C 2px 0 10px;    
+}
+
+.vector__header {
+    background-color: #000;
+    height: .5px;
+    width: 250px;
+    margin: auto;
+}
+
+/* MENU */
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 30px;
+    padding: 0%;
+    margin-top: 36px;
+}
+
+.menu__but{
+    /* font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    background: none;
+    border: 1px solid red;  
+    border-radius: 20px; */
+    color:  #D2B48C;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #D2B48C ;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.2s ease 0s;
+}
+
+.menu__but:hover {
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+    color:  #000000;
+    border: 1px solid #000;
+}
+
+.zhadan__but {
+    list-style: none;
+    text-decoration: none;
+    color: #D2B48C;
+}
+
+.zhadan__but:hover {
+    transition: all 0.2s ease 0s;
+    color:  #000000;
+}
+
+.polina__but {
+    list-style: none;
+    text-decoration: none;
+    color: #D2B48C;
+}
+
+.polina__but:hover {
+    transition: all 0.2s ease 0s;
+    color:  #000000;
+}
+
+
+/* INFO */
+
+
+
+.info__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-shadow:  #D2B48C 2px 0 10px;
+}
+.info__title:hover {
+    color: #D2B48C  ;
+    transition: all 0.2s ease 0s;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+
+.info__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.info__vector {
+    background-color: #000;
+    height: .5px;
+    width: 250px;
+    margin: auto;
+}
+
+.info__item {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    text-shadow:  #D2B48C 2px 0 30px;
+}
+
+.info__item:hover {
+    transition: all 0.5s ease 0 ;
+    background-color:#e2ded9;
+    border-radius: 20px;
+    
+}
+
+.info__link {
+    text-decoration: none;
+    color: black;
+}
+
+.info__link:hover {
+    text-decoration: none;
+    color: aliceblue    ;
+}
+
+.info__vector-end {
+    background-color: #000;
+    height: .5px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 36px;
+}
+
+/* slider */
+.slider-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+/* POLINA */
+
+.polina__list {
+    display: flex;
+    justify-content: center;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.polina__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.polina__photo-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.polina__img {
+    height: 500px;
+    box-shadow: 20px 20px 50px  #D2B48C ;
+}
+
+.polina__link {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.polina__link:hover {
+    color: #D2B48C  ;
+    transition: all 0.3s ease 0s;
+}
+
+.polina__vector-end {
+    background-color: #000;
+    height: .5px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+/* ЛІЦЕЙ */
+
+.litsey__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+    text-shadow: #D2B48C 2px 0 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.litsey__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.litsey__img {
+    height: 500px;
+    box-shadow: 20px 20px 50px  #D2B48C ;
+}
+
+.litsey__text {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+    width: 600px;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.text__box {
+    display: flex;
+    justify-content: center;
+    
+}
